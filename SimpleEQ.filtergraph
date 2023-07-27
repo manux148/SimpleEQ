@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FILTERGRAPH>
+  <FILTER uid="1" x="0.5" y="0.1" useARA="0">
+    <PLUGIN name="Audio Input" descriptiveName="" format="Internal" category="I/O devices"
+            manufacturer="JUCE" version="1.0" file="" uniqueId="246006c0"
+            isInstrument="0" fileTime="0" infoUpdateTime="0" numInputs="0"
+            numOutputs="2" isShell="0" hasARAExtension="0" uid="246006c0"/>
+    <STATE>0.</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="disabled"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="L R"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <FILTER uid="2" x="0.25" y="0.1" useARA="0">
+    <PLUGIN name="MIDI Input" descriptiveName="" format="Internal" category="I/O devices"
+            manufacturer="JUCE" version="1.0" file="" uniqueId="a9e4f9eb"
+            isInstrument="0" fileTime="0" infoUpdateTime="0" numInputs="0"
+            numOutputs="0" isShell="0" hasARAExtension="0" uid="a9e4f9eb"/>
+    <STATE>0.</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="disabled"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="disabled"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <FILTER uid="3" x="0.5" y="0.9" useARA="0">
+    <PLUGIN name="Audio Output" descriptiveName="" format="Internal" category="I/O devices"
+            manufacturer="JUCE" version="1.0" file="" uniqueId="724248cb"
+            isInstrument="0" fileTime="0" infoUpdateTime="0" numInputs="2"
+            numOutputs="0" isShell="0" hasARAExtension="0" uid="724248cb"/>
+    <STATE>0.</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="L R"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="disabled"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <FILTER uid="4" x="0.25" y="0.9" useARA="0">
+    <PLUGIN name="MIDI Output" descriptiveName="" format="Internal" category="I/O devices"
+            manufacturer="JUCE" version="1.0" file="" uniqueId="9d5bbb00"
+            isInstrument="0" fileTime="0" infoUpdateTime="0" numInputs="0"
+            numOutputs="0" isShell="0" hasARAExtension="0" uid="9d5bbb00"/>
+    <STATE>0.</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="disabled"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="disabled"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <FILTER uid="5" x="0.37875" y="0.4495967741935484" useARA="0" uiLastX_Normal="-1180"
+          uiLastY_Normal="594" uiopen_Normal="1">
+    <PLUGIN name="SimpleEQ" format="VST3" category="Fx" manufacturer="yourcompany"
+            version="1.0.0" file="C:\Users\manux\Programming\SimpleEQ\Builds\VisualStudio2022\x64\Debug\VST3\SimpleEQ.vst3"
+            uniqueId="f6a0ec23" isInstrument="0" fileTime="189978fa2da" infoUpdateTime="189979b3856"
+            numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+            uid="e9554cbc"/>
+    <STATE>191.VMjLgXK....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9XCLt3hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="L R"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="L R"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <FILTER uid="6" x="0.66875" y="0.6733870967741935" useARA="0">
+    <PLUGIN name="Kontakt" format="VST3" category="Instrument" manufacturer="Native Instruments"
+            version="6.8.0" file="C:\Program Files\Common Files\VST3\Kontakt.vst3"
+            uniqueId="66188e5c" isInstrument="1" fileTime="1888ac278e2" infoUpdateTime="189979b3857"
+            numInputs="0" numOutputs="64" isShell="0" hasARAExtension="0"
+            uid="c610ad9c"/>
+    <STATE>3412.VMjLgrTC...O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9HCMzXiKNwlKt3hKt3hKt.kKt3hKt3VSWoEcE4hKt3hKt3hKt3BNkcia18VNNkzXPoVNvAEL4P2XosTXI4hKt3hKt3hKtPTSUIkSYcjKt3BTt3hKt3BRA4hKt3hKt3hKtD0Tqo1TvEjKt3BQt3hKt3hQt3hKt3hKt3hKPoGUIQCUt3hKt3RPt3hKtPjKt3hKP4hKt3hKA4hKt3BQt3hKt3hKt3hKt3hKt3hKt3hKt3BTCgVUVcVPt3hKtLiKhAkKt3hKt3hKA4hKt3BQt3hKt3hKt3hKt3hKt3hKt3hKt3hct3hKt3hct3BSt3xPt3hKt3hKt3hKt3hKt3hKt3hKt3hKtPjKt3hKP4hKt3hKt3hKt3BT5QURzP0Xt3hKtbCZt3hKt3hKt3BTt3hKt3haMckVzUjKt3hKt3hKt3hK2XUT0kEaw.iSqY2b4bmTxjiZVMUU4gjPt3hKt3hKt3BQMUkTNU0Qt3hKP4hKt3hKjclKt3hKt3hKt3RTSslZSkWPt3hKD4hKt3hKF4hKt3hKt3hKt.kdTkDMT4hKt3hKA4hKt3BQt3hKt.kKt3hKt3hdBIjKt3hKt3hKtDjKt3hKlEiXuQiUt3hKt3hKt3hKtHGTW0FZVQGcwnWUBwFdlAGNUwDYDEjQt3hKt3hKt3hKPoGUIQCUt3hKt3RPt3hKtPjKt3hKP4hKt3hKA4hKt3hKt3hKt3RSKslZSMjKt3hKpgSPt3hKt3hKt3RPt3hKtXVLh8FMV4hKt3hKt3hKt3hXjkCLX4BV2XFQUEmREolaSAWSrY2Xk4hKt3hKt3hKt.UdRkDM54hKt3hKA4hKt3hXF4hKt3hKt3hKtPTSUIkSUYjKt3BTt3hKt3hdt3hKt3hKt3hKtD0Tqo1TvEjKt3BQt3hKt3hQt3hKt3hKt3hKPoGUIQCUt3hKt3RPt3hKtPjKt3hKP4hKt3hKB4hKt3BQt3hKt3hKB4hKt3BQt3hKtXWPt3hKtDiKlsjKlMjKz4hKL4xLB4hct3hKtPjKt3hKtDjKt3hKt3hKt3BT5QURzPTXt3hKtPlQt3hKt3hKt3BTt3hKt3haMckVzUjKt3hKt3hKt3hKxbENXo0ZVckRUESZqP0P5oGT0DzR1XkKt3hKt3hKt3BQMUkTNcmQt3hKP4hKt3hKX4hKt3hKt3hKt3RTSslZSEjKt3hKD4hKt3BTt3hKt3RPt3hKtfjKt3hKP4hKt3hKt3hKt3hdt3hKtX1TtPkQtHSPtfjKlIjKpEDTY4BVF4xYAA0XtXmQtnWPPojKt3hKt3hKt3hKt3hKt3hKt3hKt3hK1sxJqrxJqrxJqrxPt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3RPt3hKt3hKt3hKt3hKt3hKt3hKt3hXt3hKtXWPt3hKtHVPt.kKLYjK0EjKg4xMF4BdAAkKt3hKtXmKPQjKt3hKhEjKP4BTF4xZAY1XtnlQtjVPPkkKPcjKzDjKh4BUF4BaA4RXtPjQtzVP1IlKD4hKt3hKL4hbt3hKt3xUt3BQtjWP1ElKTcjKzEjKY4BTG4BMA4hXtPkQtDjKt3hKtLjKG4hKt3hcE4hKA4xXtPkQtLWPtHlK2XjKA4hKt3hKC4hQt3hKtXWQt3RPlMlKTYjK3EjKg4BVt3hKt.EStLiPtHiKlsjKDMjK54hYA4hKt3hXA4BTtf0QtrVPlIlK5YjKF4hKt3BQC4BctXWStLiPtbmKtzjKh4hKt3hKW4hKD4RLAAkVtvzQt7VPlgkKD4hKt3hKL4BQt3hKt3hKt3hKtHjKt3hKPoGUIQCUj4hKt3haA4hKt3hKt3hKP4hKt3hKt0zUZQWQt3hKt3hKt3hKtbUTMgVMiUFbBslRxcUNTsxM4kjXGc1Pt3hKt3hKt3hKD0TUR4zZG4hKt.kKt3hKtfkKt3hKt3hKt3hKQM0ZpMUPt3hKtPjKt3hKP4hKt3hKA4hKt3BQt3hKt3hKt3hKtDjKt3hKt3hKt3BTt3hKt3BQMUkTNE0Qt3hKtT2Pt3hKt3hKt3BQt3hKt3hV4sFagEjKt3hKt3hKt3BT5oULXYUb5E2TjQEVwkmLxEUbIMTRL4jKt3hKt3hKt3RTSslZSoWPt3hKD4hKt3hchMjKt3hKt3hKt.kdTkDM5IlKt3hKA4hKt3hYA4hKt3hKt3hKtPTSUIkSE4hKt3BTt3hKt3RPt3hKtPjKt3hKP4xYz3hKt3Vdt3hKl4xYz3hKlEjKtDjKREzPlEiXuQiQPcjKD4BTtXidDoVcFwjXDElSzQjKy4xaYwjaHYjKQEDRtvjKQM0ZpMkKMIzLGwjKP4hK5YjK5YDRHQDTC4jKBEjYt3BTo4RNtLUQmQSTqcVb2clKRIWZXshYy.GZ2g0MQMlLtfjZtHjKtT1PPUmK4TTaAoGRtPURtICR14hKxcDRIQDTtjWPBIjKAAkKA4lPPUDRt3hK4LDTCwjK1Q0Qt3hY1cmPtLCQtrVP1MlKtHjKt4hKYYlZtLDaAAEVtP0QtHWPtLlKpIjKq3BZGIjXD4hTtfGRC4hKD4xMO4lKtHzPtDjYtXjKlYjKY4hKlETLE4hKtXlKtnERlQiKyHCN24RNtXWUE4hUqEjKH4hKBAETV4hYtXlaPAURt3RPlIlKPMlKlEjYh4hKG4Bdt3hatfzPtXmPlwjKtvjK34hYL8jKtPDUs4xMtfzQt3BQlwjKtDkK34RPI4hKS4BdA4BTAgzPt.UQlwjKtXkK34hKhEDRCQjZn4hZAgzQDolPtHWPHcjKtbjYL4hKi4Bdt3xLAgzPtX2QlwjKPYSPjsxPtP1XCgjUpY1St3hKtzFVB4hchgFUz4Bct.ESng0YPkmQtX1JHoVQAQjKTY1aAMyPt3xL1gTPyPDVF4BdtP1UrEjcLYlLqkkKPMzLSkULPokTTclKlcTRUYDUs4RPPMCSvjzLCYlUPUlT5gjYoUjVAUjRPM0PNYkaEomaDAiSyjzYw3hLt3hPt3BYt3hKtH0ZmQET1vDQPYVYt3hKu4zLKIVPPkkP4HzUtnGQtzjKybjKPAUbBkiPWQkd1YVc1UTQi0zLKIVPPQiP4HzUt.kPl4xQyrjXmEUXtjiPWgkdKYVc1UjQMQzLKI1YQcUP4HzUXomVlUmcEYDNGMyRhcVTSITNBcEV58lY0YWQFM2RyrjXmE0SCkiPWgkdyXVc1UjQi8zLKI1cQsjK4HzUho2QlUmcEcTSCMyRhcWTGETNBckX5YkY0YWQGgiQyrjXA4hXDQ2PGUldqYVc1szQyozLKI1cQshP4HzUD4BRt3BYCckKPgjY1XWQtfjPy3jXA4RZtP2PW4hKIYlM1UjKTIzLNIVPtvlKzMzUtXWRlYicE4hYBMiShEjKu4BcCckapwzY0YWPtHmPy3zMB4hbtP2PW4BTKYlM1UjKyHzLNIVPtTmKzMzUt3BSlYicE4BQCMiShEjK34BcCckK1wjY1XWQt.0Py3jXA4BLtP2PW4hYMYlM1UjKhMzLNIVPtLiKzMzUt.kSlYicE4haCMiShEjK13BcCckKt7jY1XWQtn2Py3jXA4RNtP2PWYGdHcVd1gSPtPjKlIicEIjZD4BTXglKDASRP4hKnIzZqU1cqcEU0UzZZEUUVQkYEAiUQkUUTEUQEMUTiQEUBQTUOMyPOQjKKEjUvbTStLSQtXmPMgjUYUjQt3hKt3hKt3hKtDjKt3hKt.kKt3hKt3hKt3hKpkiKt3hKMszZpMEQt3hKt31Tt3hKt3hKt3hKA4hKt3hYwH1azXkKt3hKt3hKt3hKx4lQqYzasQ1LDwTa34DTnIDRUoVPqITPt3hKt3hKt3BT4IURzPTPt3hKtDjKt3hKlEjKt3hKt3hKt3BQMUkTNUjKt3hKP4hKt3hKA4hKt3BRAola4bjKt3hKt.EQlYTZikVMt3hcq3hYlETLyDSXKgCViIzTF4hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKhYVPt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3xMkcWMvPFdmkGbuQWLYQWS5olTjcGSt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKtPjKt3hKt3hKt3hKA4hKt3BRt3hKtXWPt3hKtDiKlsjKlMjKz4hKL4xLB4hct.kKt3hKt3hKt3hKtvyKIMzasA2atUlaz4COIUDYoQ2Pu4Fcx8FarUlb9.iK77RREQVZzMzatQmbuwFakImO77hUSQ0LPwVcmklaSQWXzUlO..</STATE>
+    <LAYOUT>
+      <INPUTS/>
+      <OUTPUTS>
+        <BUS index="0" layout="L R"/>
+        <BUS index="1" layout="L R"/>
+        <BUS index="2" layout="L R"/>
+        <BUS index="3" layout="L R"/>
+        <BUS index="4" layout="L R"/>
+        <BUS index="5" layout="L R"/>
+        <BUS index="6" layout="L R"/>
+        <BUS index="7" layout="L R"/>
+        <BUS index="8" layout="C"/>
+        <BUS index="9" layout="C"/>
+        <BUS index="10" layout="C"/>
+        <BUS index="11" layout="C"/>
+        <BUS index="12" layout="C"/>
+        <BUS index="13" layout="C"/>
+        <BUS index="14" layout="C"/>
+        <BUS index="15" layout="C"/>
+        <BUS index="16" layout="C"/>
+        <BUS index="17" layout="C"/>
+        <BUS index="18" layout="C"/>
+        <BUS index="19" layout="C"/>
+        <BUS index="20" layout="C"/>
+        <BUS index="21" layout="C"/>
+        <BUS index="22" layout="C"/>
+        <BUS index="23" layout="C"/>
+        <BUS index="24" layout="C"/>
+        <BUS index="25" layout="C"/>
+        <BUS index="26" layout="C"/>
+        <BUS index="27" layout="C"/>
+        <BUS index="28" layout="C"/>
+        <BUS index="29" layout="C"/>
+        <BUS index="30" layout="C"/>
+        <BUS index="31" layout="C"/>
+        <BUS index="32" layout="C"/>
+        <BUS index="33" layout="C"/>
+        <BUS index="34" layout="C"/>
+        <BUS index="35" layout="C"/>
+        <BUS index="36" layout="C"/>
+        <BUS index="37" layout="C"/>
+        <BUS index="38" layout="C"/>
+        <BUS index="39" layout="C"/>
+        <BUS index="40" layout="C"/>
+        <BUS index="41" layout="C"/>
+        <BUS index="42" layout="C"/>
+        <BUS index="43" layout="C"/>
+        <BUS index="44" layout="C"/>
+        <BUS index="45" layout="C"/>
+        <BUS index="46" layout="C"/>
+        <BUS index="47" layout="C"/>
+        <BUS index="48" layout="C"/>
+        <BUS index="49" layout="C"/>
+        <BUS index="50" layout="C"/>
+        <BUS index="51" layout="C"/>
+        <BUS index="52" layout="C"/>
+        <BUS index="53" layout="C"/>
+        <BUS index="54" layout="C"/>
+        <BUS index="55" layout="C"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <FILTER uid="9" x="0.345" y="0.2520161290322581" useARA="0" uiLastX_Normal="-1890"
+          uiLastY_Normal="557" uiopen_Normal="1">
+    <PLUGIN name="vstPlayer" format="VST3" category="Instrument|Synth" manufacturer="yourcompany"
+            version="2.3.4" file="C:\Program Files\VstPlugins\vstPlayer.vst3"
+            uniqueId="8fdefd46" isInstrument="1" fileTime="189970371d5" infoUpdateTime="189979b3858"
+            numInputs="0" numOutputs="0" isShell="0" hasARAExtension="0"
+            uid="ee63cfc"/>
+    <STATE>738.VMjLgjs....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9PiM43hUMczXWEjKt3hYt3hKt.kKt3hKt3BS5gEcyQjKtPDT0YTR5AkaA4hKtfjYikWTGIlKHYmKD4hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKAQEZUMTRSgjYC4hKtXWdOMCLFElYXcUV30zUZUGMV8DZDk1R1gjPHsFMwfUcQYkVzMlUOgFUEUkQvHjSncSZOYlcCE1YMczXlQ0UZc0ZFkkdmY0SnY1PLYGRBgDLqYjTqsVLY4VTW8DZTMDS1gjPHY2cVgEM2YkV4EkLSQGLogzcHIDR3UkQhsVQFMFNHIESn4BZiU2cVM1bUY0SnQTZKYGRBgjcEY0X4UkQYgCRRwDZyLzS1cmUXQycVoUdQ01S2fkUZIWUFgDcEYUXqASZHMzaCcUUMcUV30zQWMWQrEFLmczUMUkLh8VSFckd5IETvDkUZUWPBwjctLESlI2ZLYGR4wzbtjFSy4RZLYFRCwTdlkFS1o2ZKISQrMFZ2f1S2biPhIWQVQlbqEiX5QyPOUmcVgUdQ01St3hKt3hKt3hKt3hKJUELPUTPqI1aYcEV5UkQQcVTWgkKDAkKBs1QhcVSxHlKDAkKC4BTG4hKt3hKt3hKt3FUUMTUDQEdqw1XmE0UYQTQFM1YAwyKIMzasA2atUlaz4COuX0TTMCTrU2Yo41TzEFck4C.</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="L R"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="L R"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <FILTER uid="10" x="0.39625" y="0.6048387096774194" useARA="0" uiLastX_Normal="-1404"
+          uiLastY_Normal="15" uiopen_Normal="1">
+    <PLUGIN name="MMultiAnalyzer" format="VST3" category="Fx|Tools" manufacturer="MeldaProduction"
+            version="16.04" file="C:\Program Files\Common Files\VST3\MeldaProduction\Tools\MMultiAnalyzer.vst3"
+            uniqueId="1e86498b" isInstrument="0" fileTime="1861653f758" infoUpdateTime="189979b3858"
+            numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+            uid="373e23fe"/>
+    <STATE>1517.VMjLgPdA...O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9TSLx3xLuMVURACLSk1PCQjXwQzJtLSatHENU4zZFQjX0PFLDgTavQTNtoGUUs1UM0TbRIGboIiaiMGMokiK2bUZkUkLwIFduo2TEshZvvTdzkVaQYjdWc0UwASTWYGb2XjLwYCTVYGT1USXEAUSEgWatwFbjITVSsjPMY2UGAidvQFZBMFYToVZQcEZBQCZAsDMGE0J1zVcqX2Qv8VUNo0Lyb1UoImZpIVRhg2alI0SqvFMKgEbq0DNEMlQksDYwIyMtMzYhAENMMiPS4RXIECcCQCQxLWSw3xcUEyXHgDMWI1cU0VYz7zJE4lRHUlYI01PYk0JZokTZsDZLkVN1IjQEwDSqXDTwTlMxIFTucmK3IUPzHFaAETXvIDRoQkR5sjX2YUbkUTTzcTS2rBMmcySUoUdKISUjsBLNoUdwDkM48zTUUzQPkia101SQMlLlsjRKMEcw8Fa2oGUvD0S0gVSgECctzTXqEUSTIWRUc1QTcyQS8DYqLER4ECaTAWN2oUX1MiKvTWVJ4jKRozXNgVPuImXwHWV4ozRGEjXwP0UzAWZQ8VZh0zQvQCMkQUcOo0Q2TlTikyL0nGTiUTQzzzLWQDZrUSTkYmc0ITVYkELJYTSukES0gkMyYicqoWduckVVgCVgwVNS4RV0gyS14RcJYyPt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKtvyKIMzasA2atUlaz4COIUDYoQ2Pu4Fcx8FarUlb9TSLx3xLuMVURACLSk1PCQjXwQzJtLSatHENU4zZFQjX0PFLDgTavQTNtoGUUs1UM0TbRIGboIiaiMGMokiK2bUZkUkLwIFduo2TEshZvvTdzkVaQYjdWc0UwASTWYGb2XjLwYCTVYGT1USXEAUSEgWatwFbjITVSsjPMY2UGAidvQFZBMFYToVZQcEZBQCZAsDMGE0J1zVcqX2Qv8VUNo0Lyb1UoImZpIVRhg2alI0SqvFMKgEbq0DNEMlQksDYwIyMtMzYhAENMMiPS4RXIECcCQCQxLWSw3xcUEyXHgDMWI1cU0VYz7zJE4lRHUlYI01PYk0JZokTZsDZLkVN1IjQEwDSqXDTwTlMxIFTucmK3IUPzHFaAETXvIDRoQkR5sjX2YUbkUTTzcTS2rBMmcySUoUdKISUjsBLNoUdwDkM48zTUUzQPkia101SQMlLlsjRKMEcw8Fa2oGUvD0S0gVSgECctzTXqEUSTIWRUc1QTcyQS8DYqLER4ECaTAWN2oUX1MiKvTWVJ4jKRozXNgVPuImXwHWV4ozRGEjXwP0UzAWZQ8VZh0zQvQCMkQUcOo0Q2TlTikyL0nGTiUTQzzzLWQDZrUSTkYmc0ITVYkELJYTSukES0gkMyYicqoWduckVVgCVgwVNS4RV0gyS14RcJYyPt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKtvyKIUDYoQ2Pu4Fcx8FarUlb9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="L R"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="L R"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <FILTER uid="11" x="0.6325" y="0.3629032258064516" useARA="0" uiLastX_Normal="-1900"
+          uiLastY_Normal="51" uiopen_Normal="1">
+    <PLUGIN name="MMultiAnalyzer" format="VST3" category="Fx|Tools" manufacturer="MeldaProduction"
+            version="16.04" file="C:\Program Files\Common Files\VST3\MeldaProduction\Tools\MMultiAnalyzer.vst3"
+            uniqueId="1e86498b" isInstrument="0" fileTime="1861653f758" infoUpdateTime="189979b3858"
+            numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+            uid="373e23fe"/>
+    <STATE>1517.VMjLgPdA...O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9TSLx3xLuMVUQEiZSMzPCQTQjAGQG4hSBgDLyYlRAACZXEWRyUTUIIDUZAGTYE2aYQEZU0VMIokQGkyaKYVbV8TUxUjZSEDU2EmbjkWd4PScsclbwsjR3gmVuYVdyLmdgEVTQcGT1QSbTYmdGIUMYUSXjYTQgUjPqY2SKM0J2zDSGAGNtA2QvQmKUwlVC4TLx7VNzbUY2XmSSshXnElS2X2SnglQywDQNUCV1oVSgcibzHzUIESSuAiUkUjS2EVYnAERAwzJS4DLFYmRVIVXQkjSgI0aKYmTzE1RBoEdEcES0n2YWQVRXIUVkAEVnAUTxTVSqEUcuMGZlkichETULwTXL4lMxLlTBgEd14hRZozTpMWT2g2MtnDRGcFYNAiUzbyRYwFY3ozJMcjT4fmZYUFNw7lLk0zcwYkLEUFdIw1MwXDUN4RNpQFagElaVMVTLgCSzIWZrciV4r1ZnMFL0PiaiMWLzbVXKkVUyTmSzkGcAU2JYQEQWkkZvkGY5UjbDgEcQMSLFAUZ5EkbDcGNvk2QMIVM54TP3UjM3sFLBAGLLUUNg0zSgc0cjomYAUjQAMmRDUlLz0DcyMiP4rFV0LjR0nkayrBSLMCN0EDbBEzaK4hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKtvyKIMzasA2atUlaz4COIUDYoQ2Pu4Fcx8FarUlb9TSLx3xLuMVUQEiZSMzPCQTQjAGQG4hSBgDLyYlRAACZXEWRyUTUIIDUZAGTYE2aYQEZU0VMIokQGkyaKYVbV8TUxUjZSEDU2EmbjkWd4PScsclbwsjR3gmVuYVdyLmdgEVTQcGT1QSbTYmdGIUMYUSXjYTQgUjPqY2SKM0J2zDSGAGNtA2QvQmKUwlVC4TLx7VNzbUY2XmSSshXnElS2X2SnglQywDQNUCV1oVSgcibzHzUIESSuAiUkUjS2EVYnAERAwzJS4DLFYmRVIVXQkjSgI0aKYmTzE1RBoEdEcES0n2YWQVRXIUVkAEVnAUTxTVSqEUcuMGZlkichETULwTXL4lMxLlTBgEd14hRZozTpMWT2g2MtnDRGcFYNAiUzbyRYwFY3ozJMcjT4fmZYUFNw7lLk0zcwYkLEUFdIw1MwXDUN4RNpQFagElaVMVTLgCSzIWZrciV4r1ZnMFL0PiaiMWLzbVXKkVUyTmSzkGcAU2JYQEQWkkZvkGY5UjbDgEcQMSLFAUZ5EkbDcGNvk2QMIVM54TP3UjM3sFLBAGLLUUNg0zSgc0cjomYAUjQAMmRDUlLz0DcyMiP4rFV0LjR0nkayrBSLMCN0EDbBEzaKQTSukES0gkMyYicqoWduckVVgCVgwVNS4RV0gyS14RcJYyPt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKtvyKIUDYoQ2Pu4Fcx8FarUlb9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="L R"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="L R"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <CONNECTION srcFilter="1" srcChannel="0" dstFilter="9" dstChannel="0"/>
+  <CONNECTION srcFilter="1" srcChannel="1" dstFilter="9" dstChannel="1"/>
+  <CONNECTION srcFilter="5" srcChannel="0" dstFilter="10" dstChannel="0"/>
+  <CONNECTION srcFilter="5" srcChannel="1" dstFilter="11" dstChannel="0"/>
+  <CONNECTION srcFilter="9" srcChannel="0" dstFilter="5" dstChannel="0"/>
+  <CONNECTION srcFilter="9" srcChannel="1" dstFilter="5" dstChannel="1"/>
+  <CONNECTION srcFilter="10" srcChannel="0" dstFilter="3" dstChannel="0"/>
+  <CONNECTION srcFilter="10" srcChannel="1" dstFilter="3" dstChannel="1"/>
+  <CONNECTION srcFilter="11" srcChannel="0" dstFilter="10" dstChannel="1"/>
+</FILTERGRAPH>
