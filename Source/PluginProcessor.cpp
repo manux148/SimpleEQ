@@ -252,7 +252,7 @@ void SimpleEQAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, juc
     for (auto i = totalNumInputChannels; i < totalNumOutputChannels; ++i)
         buffer.clear (i, 0, buffer.getNumSamples());
 
-    auto chainSettings = getChainSettings(apvts);
+    ChainSettings chainSettings = getChainSettings(apvts);
 
     updatePeakFilter(chainSettings);
 
@@ -260,11 +260,11 @@ void SimpleEQAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, juc
                                                                                                        getSampleRate(),
                                                                                                        2 * (chainSettings.lowCutSlope + 1));
     auto& leftLowCut = leftChain.get<ChainPositions::LowCut>();
-    updateCutFilter(leftLowCut, cutCoefficients, chainSettings);
+    updateCutFilter(leftLowCut, cutCoefficients, (Slope)(chainSettings.lowCutSlope));
     
 
     auto& rightLowCut = rightChain.get<ChainPositions::LowCut>();
-    updateCutFilter(rightLowCut, cutCoefficients, chainSettings);
+    updateCutFilter(rightLowCut, cutCoefficients, (Slope)(chainSettings.lowCutSlope));
 
     juce::dsp::AudioBlock<float> block(buffer);
     
@@ -304,6 +304,59 @@ void SimpleEQAudioProcessor::setStateInformation (const void* data, int sizeInBy
 {
     // You should use this method to restore your parameters from this memory block,
     // whose contents will have been created by the getStateInformation() call.
+}
+
+template<typename ChaineType, typename CoefficientType>
+void SimpleEQAudioProcessor::updateCutFilter(ChaineType& leftLowCut,
+    const CoefficientType& cutCoefficients,
+    const Slope& lowCutSlope)
+    //const ChainSettings& chainSettings)
+{
+
+    leftLowCut.template setBypassed<0>(true);
+    leftLowCut.template setBypassed<1>(true);
+    leftLowCut.template setBypassed<2>(true);
+    leftLowCut.template setBypassed<3>(true);
+
+    switch (lowCutSlope) {
+    //switch (chainSettings.lowCutSlope) {
+    case Slope_12:
+    {
+        *leftLowCut.template get<0>().coefficients = *cutCoefficients[0];
+        leftLowCut.template setBypassed<0>(false);
+        break;
+    }
+    case Slope_24:
+    {
+        *leftLowCut.template get<0>().coefficients = *cutCoefficients[0];
+        leftLowCut.template setBypassed<0>(false);
+        *leftLowCut.template get<1>().coefficients = *cutCoefficients[1];
+        leftLowCut.template setBypassed<1>(false);
+        break;
+    }
+    case Slope_36:
+    {
+        *leftLowCut.template get<0>().coefficients = *cutCoefficients[0];
+        leftLowCut.template setBypassed<0>(false);
+        *leftLowCut.template get<1>().coefficients = *cutCoefficients[1];
+        leftLowCut.template setBypassed<1>(false);
+        *leftLowCut.template get<2>().coefficients = *cutCoefficients[2];
+        leftLowCut.template setBypassed<2>(false);
+        break;
+    }
+    case Slope_48:
+    {
+        *leftLowCut.template get<0>().coefficients = *cutCoefficients[0];
+        leftLowCut.template setBypassed<0>(false);
+        *leftLowCut.template get<1>().coefficients = *cutCoefficients[1];
+        leftLowCut.template setBypassed<1>(false);
+        *leftLowCut.template get<2>().coefficients = *cutCoefficients[2];
+        leftLowCut.template setBypassed<2>(false);
+        *leftLowCut.template get<3>().coefficients = *cutCoefficients[3];
+        leftLowCut.template setBypassed<3>(false);
+        break;
+    }
+    }
 }
 
 ChainSettings getChainSettings(juce::AudioProcessorValueTreeState& apvts) {
